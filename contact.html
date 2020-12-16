@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <title>Contact-Meng Zhu</title>
+       <!--google reCAPTCHA API library -->
+       <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+    <div id="container">
+        <header  id="mainheader">
+            <h1 class="hidden">This is Zhu Meng's About Page</h1>
+            <!--Logo here-->
+            <div class="logo">
+                <h2 class="hidden">Logo</h2>
+                <img src="images/Logo.svg" alt="Logo">
+            </div>
+            <!--Main navigation here-->
+            <nav id="mainNav">
+
+              <h2 class="hidden">Header Navigation</h2>
+              <button id="button"></button>
+              <div id="burgerCon">
+               <ul id="burgerMenu ">
+                  <li><a  href="about.html">About</a></li>
+                  <li><a  href="portfolio.html">Portfolio</a></li>
+                  <li><a  class="active" href="contact.html">Contact</a></li>
+               </ul>
+               </div>
+          </nav>      
+            
+        </header>
+        <main id="contact-main" >
+                <form action="./includes/mail/send.php" method="POST" id="mail-form">
+                  <!--send.php:where is data submission go, sent "to"-->
+                  <!--method:"post": how I sumbit data-->
+                  <label for="name">Name*</label><!--accosiate label with input field--><br>
+                  <input type="text" id="name" name="name"  required><br>
+  
+                  <label for="email">Email*</label><br>
+                  <input type="email" id="email" name="email"  required><br>
+
+                  <label for="subject">Subject*</label><br>
+                  <input type="text" id="subject" name="subject"  required><br>
+
+                  <label for="message">Message</label><br>
+                  <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+                  
+                  <!--google reCAPTCHA box here-->
+                  <div class="g-recaptcha" data-sitekey='6Lfvbe4ZAAAAABt9YDWyNQakJ68EIhOSBKB3IDxL'></div>
+
+                  <div class="submit-wrapper">
+                    <span class="submit button_red">Submit</span>
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                </form> 
+              
+
+        <div class="socialMedia">
+          <h3 class="hidden">Social Media</h3>            
+         <a href="http://www.facebook.com">
+           <img src="images/facebook.svg" alt="facebook">
+         </a>     
+         <a href="http://www.Instagram.com">
+          <img src="images/Instagram.svg" alt="Instagram">
+        </a>
+         <a href="http://www.twitter.com">
+           <img src="images/twitter.svg" alt="twitter">
+         </a>
+         <a href="http://www.youtube.com">
+           <img src="images/youtube.svg" alt="youtube">
+         </a>
+       </div><!--close social media -->
+      
+        </main>
+        <footer>
+         <h2>Copyright © Zhu Meng</h2>
+        </footer>
+  
+    </div><!--close container-->
+</body>
+<script src="js/contact.js" type="module"></script>
+</html>
