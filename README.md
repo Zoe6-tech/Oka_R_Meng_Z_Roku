@@ -7,14 +7,14 @@ Roku Flashback Streaming App is an online cinema.There are two types of accounts
 [Design document](https://docs.google.com/document/d/1-rUQ72ZswSs6Vbqq83y_USzKzOaJQcp2J3HCXQd9m_g/edit?usp=sharing) is here.<br>
 ## Section
 ✔️ welcome page <br>
-✔️ child page<br>
-✔️ parent page 
+✔️ kid page<br>
+✔️ adult page 
 
-### weclome page
+### welcome page
 - sign/log in button
 - kid button
 - adult button 
-### kidpage
+### kid page
 - movies for kid
 ### adult page
 - movies for adult
