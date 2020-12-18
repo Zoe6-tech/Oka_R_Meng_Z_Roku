@@ -6,6 +6,10 @@ Roku Flashback Streaming App is an online cinema.There are two types of accounts
 [Project Roadmap](https://docs.google.com/document/d/1-rUQ72ZswSs6Vbqq83y_USzKzOaJQcp2J3HCXQd9m_g/edit?usp=sharing) is here.<br>
 ## Design document
 [Design document](https://docs.google.com/document/d/1-rUQ72ZswSs6Vbqq83y_USzKzOaJQcp2J3HCXQd9m_g/edit?usp=sharing) is here.<br>
+## Design PDF
+[Design PDF](/assets/Roku.pdf)<br>
+## Design notes
+[Design note](https://docs.google.com/document/d/1iENfyg-yGbQK1QDSCkzr-Li5ErR0JP9T62Kb1UxlgUw/edit?usp=sharing) is here.<br>
 ## Section
 ✔️ welcome page <br>
 ✔️ kid page<br>
