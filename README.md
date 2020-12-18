@@ -1,6 +1,8 @@
 
 # Roku Flashback Streaming App
+## Design image
 [Design image](/assets/Roku.pdf) is here.<br>
+## Design note
 [Design note](https://docs.google.com/document/d/1iENfyg-yGbQK1QDSCkzr-Li5ErR0JP9T62Kb1UxlgUw/edit?usp=sharing) is here.<br>
 =======
 [Project Roadmap](https://docs.google.com/document/d/1-rUQ72ZswSs6Vbqq83y_USzKzOaJQcp2J3HCXQd9m_g/edit?usp=sharing) is here.<br>
