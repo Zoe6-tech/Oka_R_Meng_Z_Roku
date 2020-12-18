@@ -1,22 +1,21 @@
 
 # Roku Flashback Streaming App
-![header image](/images/readme.jpg "Roku")<br>
-
+Roku Flashback Streaming App is an online cinema.There are two types of accounts: parent account and child account.
+## Dev notes
 [Project Roadmap](https://docs.google.com/document/d/1-rUQ72ZswSs6Vbqq83y_USzKzOaJQcp2J3HCXQd9m_g/edit?usp=sharing) is here.<br>
+## Design document
+[Design document](https://docs.google.com/document/d/1-rUQ72ZswSs6Vbqq83y_USzKzOaJQcp2J3HCXQd9m_g/edit?usp=sharing) is here.<br>
 ## Section
-✔️ HomePage <br>
-✔️ Page2<br>
-✔️ ContactPage 
+✔️ welcome page <br>
+✔️ child page<br>
+✔️ parent page 
 
-### Homepage
-- info
-- info
-### Page2
-- info
-- info
-### Contact
-- Contact box
-- Social Meida links
+### weclome page
+- sign/log in button
+- child button
+- parent button 
+### child/ parent page
+- Separate movies into kids/parent
 
 ## Technologies
 * Wampserver
@@ -39,9 +38,6 @@
 * Make an AJAX request using Fetch API: ` fetchdata("./includes/read.php").then(data=>{ data.forEach(project=>this.portfolio.push(project))}).catch(err => this.error = err); `
 * Use Vue: `<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>`
 
-## On-Going
-* Add more UI/UX
-* Complete function
 
 ## Designer
 Ryoko Oka
@@ -49,7 +45,6 @@ Ryoko Oka
 Zhu Meng
 
 ## License
- 
 This project is licensed under the MIT[MIT]
 ([MIT](https://choosealicense.com/licenses/mit/)) license
 
