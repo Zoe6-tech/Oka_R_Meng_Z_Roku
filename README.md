@@ -1,6 +1,6 @@
 
 # Roku Flashback Streaming App
-Roku Flashback Streaming App is an online cinema.There are two types of accounts: parent account and child account.
+Roku Flashback Streaming App is an online cinema.There are two types of accounts: adult account and kid account.
 ## Dev notes
 [Project Roadmap](https://docs.google.com/document/d/1-rUQ72ZswSs6Vbqq83y_USzKzOaJQcp2J3HCXQd9m_g/edit?usp=sharing) is here.<br>
 ## Design document
@@ -12,8 +12,8 @@ Roku Flashback Streaming App is an online cinema.There are two types of accounts
 
 ### weclome page
 - sign/log in button
-- child button
-- parent button 
+- kid button
+- adult button 
 ### child/ parent page
 - Separate movies into kids/parent
 
