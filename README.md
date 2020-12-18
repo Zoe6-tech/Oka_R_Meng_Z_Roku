@@ -14,8 +14,10 @@ Roku Flashback Streaming App is an online cinema.There are two types of accounts
 - sign/log in button
 - kid button
 - adult button 
-### child/ parent page
-- Separate movies into kids/parent
+### kidpage
+- movies for kid
+### adult page
+- movies for adult
 
 ## Technologies
 * Wampserver
@@ -32,11 +34,6 @@ Roku Flashback Streaming App is an online cinema.There are two types of accounts
 * MySQL
 * Vue
 * Javascript
-
-## Code Examples
-* Compile SASS into CSS file: `sass --watch sass:css --style compressed` or `sass --watch sass:css`
-* Make an AJAX request using Fetch API: ` fetchdata("./includes/read.php").then(data=>{ data.forEach(project=>this.portfolio.push(project))}).catch(err => this.error = err); `
-* Use Vue: `<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>`
 
 
 ## Designer
