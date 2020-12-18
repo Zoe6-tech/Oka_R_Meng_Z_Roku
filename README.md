@@ -1,24 +1,25 @@
 
 # Roku Flashback Streaming App
+<<<<<<< HEAD
 [Design image](/assets/Roku.pdf)<br>
-[Design note]
-https://docs.google.com/document/d/1iENfyg-yGbQK1QDSCkzr-Li5ErR0JP9T62Kb1UxlgUw/edit?usp=sharing
-
+[Design note](https://docs.google.com/document/d/1iENfyg-yGbQK1QDSCkzr-Li5ErR0JP9T62Kb1UxlgUw/edit?usp=sharing)
+=======
 [Project Roadmap](https://docs.google.com/document/d/1-rUQ72ZswSs6Vbqq83y_USzKzOaJQcp2J3HCXQd9m_g/edit?usp=sharing) is here.<br>
+## Design document
+[Design document](https://docs.google.com/document/d/1-rUQ72ZswSs6Vbqq83y_USzKzOaJQcp2J3HCXQd9m_g/edit?usp=sharing) is here.<br>
 ## Section
-✔️ HomePage <br>
-✔️ Page2<br>
-✔️ ContactPage 
+✔️ welcome page <br>
+✔️ kid page<br>
+✔️ adult page 
 
-### Homepage
-- info
-- info
-### Page2
-- info
-- info
-### Contact
-- Contact box
-- Social Meida links
+### welcome page
+- sign/log in button
+- kid button
+- adult button 
+### kid page
+- movies for kid
+### adult page
+- movies for adult
 
 ## Technologies
 * Wampserver
@@ -36,14 +37,6 @@ https://docs.google.com/document/d/1iENfyg-yGbQK1QDSCkzr-Li5ErR0JP9T62Kb1UxlgUw/
 * Vue
 * Javascript
 
-## Code Examples
-* Compile SASS into CSS file: `sass --watch sass:css --style compressed` or `sass --watch sass:css`
-* Make an AJAX request using Fetch API: ` fetchdata("./includes/read.php").then(data=>{ data.forEach(project=>this.portfolio.push(project))}).catch(err => this.error = err); `
-* Use Vue: `<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>`
-
-## On-Going
-* Add more UI/UX
-* Complete function
 
 ## Designer
 Ryoko Oka
@@ -51,7 +44,6 @@ Ryoko Oka
 Zhu Meng
 
 ## License
- 
 This project is licensed under the MIT[MIT]
 ([MIT](https://choosealicense.com/licenses/mit/)) license
 
