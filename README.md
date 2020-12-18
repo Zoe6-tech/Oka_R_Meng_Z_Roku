@@ -1,6 +1,8 @@
 
 # Roku Flashback Streaming App
-![header image](/images/readme.jpg "Roku")<br>
+[Design image](/assets/Roku.pdf)<br>
+[Design note]
+https://docs.google.com/document/d/1iENfyg-yGbQK1QDSCkzr-Li5ErR0JP9T62Kb1UxlgUw/edit?usp=sharing
 
 [Project Roadmap](https://docs.google.com/document/d/1-rUQ72ZswSs6Vbqq83y_USzKzOaJQcp2J3HCXQd9m_g/edit?usp=sharing) is here.<br>
 ## Section
