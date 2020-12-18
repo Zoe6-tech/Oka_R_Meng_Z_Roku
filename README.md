@@ -1,5 +1,6 @@
 
 # Roku Flashback Streaming App
+![header image](/images/readme.JPG " roku")<br>
 Roku Flashback Streaming App is an online cinema.There are two types of accounts: adult account and kid account.
 ## Dev notes
 [Project Roadmap](https://docs.google.com/document/d/1-rUQ72ZswSs6Vbqq83y_USzKzOaJQcp2J3HCXQd9m_g/edit?usp=sharing) is here.<br>
