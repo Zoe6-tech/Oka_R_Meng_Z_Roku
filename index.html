@@ -6,8 +6,10 @@
 	<meta name="viewport" content="initial-scale.1.0, width=device-width">
 	<title>Roku Flashback</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/master.css">
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/master.css"><link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
 </head>
 
 <header>
@@ -25,8 +27,6 @@
 
             </ul>
         </nav>
-
-
     </div>
 </header>
 
@@ -48,16 +48,30 @@
         <div class="snow"></div>
         <div class="snow"></div>
 
+        <section class="contentCon">
+            <h2 class="title">Welcome to Roku Flashback</h2>
+            <form class="logCon">
+                <label for="email">Email/Login Name</label>
+                <input type="email" id="email" name="email" placeholder="email" required>
 
-		<section class="mainCon">
-			<h1 class="hidden">Roku Flashback Page</h1>
+                <label for="logname">Password</label>
+                <input type="text" name="password" placeholder="password" required>
 
-		</section>
-		
+                <!-- reCAPTCHA -->
+                <div class="g-recaptcha" data-sitekey="6LfEnuYZAAAAAHAltzTuZVmAhIvUQzge1D1XLreo"></div>
+
+                <div class="submit-wrapper">
+                    <span class="submit">Login</span>
+                    <i class="fas fa-paper-plane"></i>
+                </div>
+
+            </form>
+        </section>		
 		
 
 </main>
 
+<script src='https://www.google.com/recaptcha/api.js' async defer ></script>
 <script src="js/main.js" type="module"></script>
 </body>
 </html>

@@ -6,18 +6,15 @@
 body {
     font: $main-font;
     background-color: $main-bg-color;
-	color: $main-text-color;
-}
-
-
-//  snowflake  --------------------------------------
-
-body {
+    color: $main-text-color;
     height: 100vh;
     background-image: linear-gradient(#fff, #BEDCFA);
     overflow: hidden;
     filter: drop-shadow(0 0 10px white);
-  }
+}
+
+
+//  snowflake  --------------------------------------
   
   @function random_range($min, $max) {
     $rand: random();
@@ -63,4 +60,4 @@ body {
       }
     }
   }
-  
+
