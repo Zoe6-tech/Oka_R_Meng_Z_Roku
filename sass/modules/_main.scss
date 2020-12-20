@@ -7,9 +7,9 @@ body {
     font: $main-font;
     background-color: $main-bg-color;
     color: $main-text-color;
-    height: 100vh;
     background-image: linear-gradient(#fff, #BEDCFA);
     overflow: hidden;
+    height: 100vh;
     filter: drop-shadow(0 0 10px white);
 }
 
