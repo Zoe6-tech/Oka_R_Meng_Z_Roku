@@ -61,3 +61,46 @@ body {
     }
   }
 
+  // error page ------------------------------
+  .err {
+    text-align: center;
+    padding: 50px;
+    height: 100vh;
+
+    h2 {
+        font-size: 40px;
+        padding: 30px;
+    }
+
+    a {
+        padding: 10px 20px;
+        margin: 40px;
+        border: none;
+        font-size: 18px;
+        display: inline-block; 
+        border: gray 1px solid;
+        border-radius: 10px;
+        color: gray;
+        cursor: pointer; 
+        text-decoration: none;
+        background: none;
+    
+        &:hover { 
+            background-color: gray;
+            opacity: 60%;
+            border: none;
+            color: white;
+        }
+    
+        a:link, a:visited {
+            color: gray;
+            text-decoration: none;
+    
+            &:hover {
+                color: white;
+            }
+          }
+    }
+}
+
+
