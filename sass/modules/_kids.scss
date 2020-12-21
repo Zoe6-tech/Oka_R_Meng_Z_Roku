@@ -1,4 +1,62 @@
+#mainNav ul li a {
+	font-size: 16px;
+    margin-top: 10px;
+	padding: 0 5px;
+}
+
+nav { 
+    margin: 0;
+    float: right;    
+    .kidsnav-item { 
+        margin-top: 10px;
+        margin-right: 20px;
+        height: 30px;
+        display: inline-block; 
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #FFDA77;
+        border-radius: 3px;
+
+        a { 
+            text-decoration: none; 
+            display: block;
+            color: #656565;
+            font-size: 20px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #FFF;
+                border-radius: 7px;
+                color: #FFDA77;
+            }
+
+        }
+    }
+}
+
+
 .kidsCon {
     width: 100%;
     display: flex;
+}
+
+.mainKidsPic {
+    width: 60%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.mainKidsText {
+    width: 40%;
+    background-color: white;
+    border: 5px solid #FFDA77;
+    padding: 30px;
+}
+
+.kidsmarks {
+    width: 30px;
+    height: auto;
+    fill: #FFDA77;
 }
